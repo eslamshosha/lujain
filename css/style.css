@@ -665,7 +665,7 @@ main .main-captions {
 }
 .projects-cont {
   position: absolute;
-  top: 60%;
+  top: 57%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -678,7 +678,7 @@ main .main-captions {
   color: var(--white-color);
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 70px;
+  margin-bottom: 55px;
 }
 .projects-cont .link-btn-cont {
   justify-content: center;
@@ -1383,6 +1383,9 @@ html[dir="rtl"] .footer-accordion.active:after {
     width: 118px;
     height: 45px;
     font-size: 14px;
+  }
+  .projects-cont {
+    top: 58%;
   }
 }
 /*                    menu in phone size                      */
